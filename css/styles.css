@@ -840,6 +840,31 @@ color: rgba(46, 47, 66, 0.4);
     fill:#f4f4fd;
 
 }
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+    .container .nav-div{
+        padding-bottom: 0;
+    }
+    .headline-one{
+        font-weight: 700;
+        font-size: 56px;
+        width: 496px;
+        height: 120px;
+        word-wrap: break-word;
+
+    }
+    .qualities-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 72px 24px;
+        flex-wrap: wrap;
+    }
+
+
+}
 
 
 
