@@ -68,8 +68,8 @@ section {
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
-    
-    
+    margin-left:16px;
+    padding:0px;
     
     
     
@@ -113,7 +113,7 @@ section {
 }
 .address-section{
     font-style: normal;
-    
+    margin-left:auto;
     
 }
 .address-line{
@@ -161,12 +161,13 @@ color: #434455;
     color: #404bbf;
 }
 .open-menu-button{
-    padding: 5px 4px;
+  padding: 5px 4px;
   background-color: transparent;
   cursor: pointer;
   border: none;
   position: absolute;
   right: 0;
+  margin-right: 16px;
 }
 .mobile-menu {
     background: #fff;
@@ -351,18 +352,16 @@ margin: 0 auto;
     gap:72px;
 }
 .qualities-element{
-    display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
+    
 gap: 8px;
 }
+
 .headline-three{
     font-weight: 700;
 font-size: 36px;
 line-height: 1.11111;
 letter-spacing: 0.02em;
-text-align: center;
+text-align: left;
 color: #2e2f42;
 }
 .text{
@@ -530,8 +529,8 @@ color: #434455;
     align-items: flex-start;
     justify-content: flex-start;
     flex-wrap: wrap;
-    row-gap:48px;
-    column-gap:24px;
+    row-gap:24px;
+    column-gap:48px;
 }
 .portfolio-block{
     display:flex;
@@ -547,10 +546,8 @@ color: #434455;
 }
 .footer-section{
     background:#2e2f42;
-    padding-left:15px;
-    padding-right:15px;
-    display: flex;
-    flex-direction: column;
+    padding:100px 0;
+    
     
     
 
@@ -567,6 +564,9 @@ color: #fff;
 margin-bottom: 16px;
 text-align: center;
 }
+.social-footer-icons{
+    margin-bottom: 72px;
+}
 .footer-section .text{
     font-weight: 400;
 font-size: 16px;
@@ -574,11 +574,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 max-width:264px ;
+margin-bottom: 72px;
 
 }
-.social-footer{
-    margin: 72px 0px;
-}
+
 .social-footer .social-footer-icons{
     display: flex;
     gap:16px;
@@ -597,10 +596,11 @@ max-width:264px ;
     color: #4d5ae5;
     line-height:1.17;
     margin-bottom: 16px;
-    margin-top: 96px;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    
+    
+    
 }
 .footer-section .web-header{
     color: #f4f4fd;
@@ -619,9 +619,9 @@ max-width:264px ;
 display:flex;
 flex-direction: column;
 gap:24px;
-width: 288px;
-height: 136px;
+
 }
+
 .subscription-paragraph{
     font-weight: 500;
     font-size: 16px;
@@ -908,9 +908,12 @@ color: #fff;
         .open-menu-button{
             display:none;
         }
+        .header-logo{
+            margin-right: 120px;
+        }
         .header-nav{
             display: flex;
-            margin: 0 auto;
+            
             width:50%;
 
         }
@@ -959,8 +962,7 @@ color: #fff;
             padding-bottom: 0;
         }
         .footer-div{
-            width: 768px;
-            height: 456px;
+            padding-left:108px;
             flex-wrap: wrap;
     flex-direction: row;
     display: flex;
@@ -968,16 +970,17 @@ color: #fff;
         }
         .footer-section .header-logo{
             padding-top: 0;
+            justify-content: flex-start;
         }
         .footer-logo-div .text{
             text-align: justify;
             width: 264px;
         }
         .footer-logo-div{
-            margin-left: 108px;
+            
             display: flex;
             flex-direction: column;
-            gap: 16px;
+            
             text-align: start;
             width: 264px;
             margin-right:24px;
@@ -1005,15 +1008,28 @@ color: #fff;
             width: 264px;
 height: 40px;
     text-align: justify;
-    margin-left: 108px;
-  margin-right:24px;
+    margin-right: 24px;
+    
         }
         .subscription-form{
             display: flex;
     flex-direction: row;
     justify-content: flex-start;
     gap: 0;
+    
         }
+        .subscription-paragraph{
+            margin-top: 72px;
+            text-align: left;
+        }
+        .footer-logo-div .text{
+            font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+        }
+        
 
     } 
     .modal{
@@ -1228,10 +1244,7 @@ height: 40px;
         .footer-section{
             background:#2e2f42;
             
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            justify-content: center;
+            padding:100px 0;
             
         
         }
@@ -1261,7 +1274,7 @@ height: 40px;
             gap:16px;
             align-items: flex-start;
             justify-content: flex-start;
-            margin-top:16px;
+           
             flex-direction: row;
             
             
